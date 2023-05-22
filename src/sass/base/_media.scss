@@ -1,0 +1,35 @@
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 21px 93px 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .advantages {
+        &__descr-subheader {
+            width: 192px;
+        }
+    }
+
+    .header {
+        &__phone {
+            font-size: 10px;
+        }
+
+        .button {
+            width: 84px;
+            height: 22px;
+            font-size: 7px;
+        }
+
+        &__official {
+            font-size: 8px;
+
+            span {
+                font-size: 13px;
+            }
+        }
+    }
+
+
+}
