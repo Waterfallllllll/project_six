@@ -13,13 +13,14 @@
 
     .header {
         &__phone {
-            font-size: 10px;
+            font-size: 13px;
         }
 
+
         .button {
-            width: 84px;
-            height: 22px;
-            font-size: 7px;
+            width: 109px;
+            height: 23px;
+            font-size: 8px;
         }
 
         &__official {
@@ -29,7 +30,112 @@
                 font-size: 13px;
             }
         }
+
+        >div {
+            width: 33%;
+        }
     }
 
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
 
+        &__icons {
+            width: 272px;
+        }
+
+        &__icon {
+            font-size: 10px;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &__subheader {
+            font-size: 14px;
+        }
+
+        .button {
+            &_main {
+                width: 205px;
+                height: 35px;
+                font-size: 12px;
+            }
+        }
+
+        &__link {
+            font-size: 12px;
+
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .promo {
+        min-height: 325px;
+        padding: 21px 6px 93px 6px;
+
+        &__header {
+            font-size: 14px;
+        }
+
+        &__subheader {
+            font-size: 7px;
+        }
+
+        &__icons {
+            width: 145px;
+        }
+
+        &__icon {
+            font-size: 6px;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .button {
+            &_main {
+                width: 105px;
+                height: 22px;
+                font-size: 6px;
+            }
+        }
+
+        &__link {
+            font-size: 8px;
+
+            a {
+                font-size: 8px;
+            }
+        }
+    }
+
+    .header {
+        &__phone {
+            font-size: 9px;
+        }
+
+        .button {
+            width: 75px;
+            height: 17px;
+            font-size: 6px;
+        }
+
+        &__official {
+            font-size: 5px;
+
+            span {
+                font-size: 8px;
+            }
+        }
+    }
 }
