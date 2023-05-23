@@ -6,8 +6,25 @@
 
 @media (max-width: 767px) {
     .advantages {
+        min-height: 235px;
+
         &__descr-subheader {
-            width: 192px;
+            width: 162px;
+            font-size: 10px;
+        }
+
+        &__descr-header {
+            font-size: 12px;
+        }
+
+        &__item {
+            img {
+                width: 50px;
+            }
+        }
+
+        &__header {
+            font-size: 18px;
         }
     }
 
@@ -136,6 +153,36 @@
             span {
                 font-size: 8px;
             }
+        }
+    }
+
+    .advantages {
+        min-height: 117px;
+        padding: 26px 0 26px 0;
+
+        &__descr-subheader {
+            width: 94px;
+            font-size: 6px;
+            margin-top: 8px;
+        }
+
+        &__descr-header {
+            font-size: 8px;
+            margin-top: 10px;
+        }
+
+        &__item {
+            img {
+                width: 25px;
+            }
+        }
+
+        &__items {
+            margin-top: 25px;
+        }
+
+        &__header {
+            font-size: 12px;
         }
     }
 }
