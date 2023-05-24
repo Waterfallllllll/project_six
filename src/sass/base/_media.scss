@@ -2,6 +2,25 @@
     .promo {
         padding: 21px 21px 93px 21px;
     }
+
+    .advantages {
+        padding: 70px 21px 78px;
+
+        &__descr-subheader {
+            width: 203px;
+            font-size: 13px;
+        }
+
+        &__item {
+            img {
+                width: 61px;
+            }
+        }
+
+        .title {
+            font-size: 23px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -23,7 +42,7 @@
             }
         }
 
-        &__header {
+        .title {
             font-size: 18px;
         }
     }
@@ -96,7 +115,7 @@
 @media(max-width: 575px) {
     .promo {
         min-height: 325px;
-        padding: 21px 6px 93px 6px;
+        padding: 21px 6px 93px;
 
         &__header {
             font-size: 14px;
@@ -158,7 +177,7 @@
 
     .advantages {
         min-height: 117px;
-        padding: 26px 0 26px 0;
+        padding: 26px 6px 26px;
 
         &__descr-subheader {
             width: 94px;
@@ -181,7 +200,7 @@
             margin-top: 25px;
         }
 
-        &__header {
+        .title {
             font-size: 12px;
         }
     }
