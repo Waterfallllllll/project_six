@@ -51,6 +51,42 @@
         }
     }
 
+    .carousel {
+        .slick-slide {
+            img {
+                width: 500px;
+            }
+        }
+
+        &__inner {
+            width: 500px;
+        }
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            margin: 0 5px;
+        }
+
+        button {
+            font-size: 0;
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            opacity: .25;
+            border-radius: 50%;
+        }
+    }
+
+    .slick-active {
+        button {
+            opacity: 10;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -256,6 +292,7 @@
     .consultation {
         padding: 50px 21px 50px;
         min-height: 340px;
+
         .title {
             &_white {
                 font-size: 12px;
@@ -279,6 +316,43 @@
             &_submit {
                 font-size: 10px;
             }
+        }
+    }
+
+    .carousel {
+        .slick-slide {
+            img {
+                width: 200px;
+            }
+        }
+
+        &__inner {
+            width: 200px;
+        }
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            margin: 0 5px;
+        }
+
+        button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            opacity: .25;
+            border-radius: 50%;
+        }
+    }
+
+    .slick-active {
+        button {
+            opacity: 10;
         }
     }
 }
