@@ -113,6 +113,16 @@
 		}
 
 	}
+
+	.footer {
+		margin-top: 75px;
+
+		&__info {
+			bottom: 0;
+			top: auto;
+		}
+	}
+
 }
 
 @media (max-width: 767px) {
@@ -268,6 +278,32 @@
 		}
 	}
 
+	.footer {
+
+
+		&__info {
+			width: 323px;
+			height: 227px;
+			bottom: 0;
+		}
+
+		&__adr {
+			font-size: 11px;
+		}
+
+		&__phone {
+			font-size: 16px;
+		}
+
+		&__social-item {
+			width: 23px;
+			height: 23px;
+
+			img {
+				height: 11px;
+			}
+		}
+	}
 }
 
 @media(max-width: 575px) {

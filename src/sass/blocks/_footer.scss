@@ -41,8 +41,13 @@
         align-items: center;
         margin: 0 15px;
 
+        &:hover {
+            box-shadow: 0px 0px 10px blue;
+        }
+
         img {
             height: 27px;
+
         }
     }
 
