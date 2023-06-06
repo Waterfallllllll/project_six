@@ -70,6 +70,38 @@ $(document).ready(function () {
             $('.overlay, #order').fadeIn('slow');
         });
     });
+
+    function validateForms(form) {
+        $(form).validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                phone: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages: {
+                name: {
+                    required: "Пожалуйста, введите ваше имя",
+                    minlength: jQuery.validator.format("Введите {0} символа")
+                },
+                phone: "Пожалуйста, введите ваш номер телефона",
+                email: {
+                    required: "Пожалуйста, введите вашу почту",
+                    email: "Ваша почта должна быть в формате name@domain.com"
+                }
+            }
+        });
+    };
+    validateForms('#consultation form');
+    validateForms('#consultation-form');
+    validateForms('#order form');
+
+    $('input[name=phone]').mask("+373 99999999");
 });
 
 

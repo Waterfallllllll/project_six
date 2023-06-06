@@ -427,6 +427,19 @@
 				font-size: 10px;
 			}
 		}
+
+		.error {
+			text-align: center;
+			border: 2px solid red;
+			font-size: 10px;
+			margin-bottom: 17px;
+
+		}
+
+		label.error {
+			color: white;
+			border: none;
+		}
 	}
 
 	.carousel {
@@ -489,5 +502,34 @@
 			font-size: 13px;
 		}
 
+	}
+
+	.modal {
+		width: 195px;
+		min-height: 368px;
+
+		&__subtitle {
+			font-size: 7px;
+		}
+
+		&__descr {
+			font-size: 6px;
+		}
+
+		.feed-form {
+			width: 125px;
+
+			input {
+				font-size: 7px;
+			}
+
+			.button_submit {
+				font-size: 7px;
+			}
+		}
+
+		.error {
+			font-size: 7px;
+		}
 	}
 }

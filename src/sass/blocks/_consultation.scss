@@ -10,4 +10,17 @@
         text-align: left;
         margin-top: 80px;
     }
+
+    .error {
+        text-align: center;
+        border: 2px solid red;
+        font-size: 14px;
+        margin-bottom: 17px;
+        
+    }
+
+    label.error {
+        color: white;
+        border: none;
+    }
 }

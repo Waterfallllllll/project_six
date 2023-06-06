@@ -44,7 +44,19 @@
         color: $main-color;
         cursor: pointer;
     }
+
+    .error {
+        text-align: center;
+        border: 1px solid red;
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    label.error {
+        border: none;
+    }
 }
+
+
 
 #consultation,
 #order,
